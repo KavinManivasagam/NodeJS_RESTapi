@@ -1,0 +1,18 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/6564c3a7b73b6143f3092f2a
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person", 
+    "subscribedToChannel": "Kavin Manivasagam"
+}
+
+### 
+DELETE http://localhost:3000/subscribers/6564c7a562ad2e7e1202f8af
